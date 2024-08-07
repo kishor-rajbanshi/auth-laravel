@@ -1,0 +1,45 @@
+{
+    "name": "kishor-rajbanshi/auth-laravel",
+    "description": "Authentication package for Laravel application.",
+    "keywords": [
+        "laravel",
+        "php",
+        "package",
+        "kishor-rajbanshi"
+    ],
+    "support": {
+        "issues": "https://github.com/kishor-rajbanshi/auth-laravel/issues"
+    },
+    "homepage": "https://github.com/kishor-rajbanshi/auth-laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "KishorRajbanshi\\AuthLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kishor Rajbanshi",
+            "email": "kishorrajbanshi00@gmail.com",
+            "homepage": "https://www.kishor-rajbanshi.com.np",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^8.2",
+        "laravel" : "^11.20"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KishorRajbanshi\\AuthLaravel\\AuthServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
